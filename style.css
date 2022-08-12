@@ -33,7 +33,7 @@ body {
   /* Header _logo */
 }
 .container_1 nav .logo {
-  width: 9rem;
+  max-width: 10%;
   position: absolute;
   margin: 0 auto;
 }
@@ -71,7 +71,7 @@ body {
   z-index: 1;
   top: 18%;
   left: 5%;
-  max-height: 27rem;
+  max-height: 75%;
   margin: 0 auto;
 }
 
@@ -103,11 +103,11 @@ body {
   height: 2rem;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-color: rgb(245, 245, 245);
   font-size: 1rem;
   letter-spacing: 0px;
-  color: #0A4473;
+  color: rgb(11, 39, 71);
   opacity: 1;
-  border-color: rgb(245, 245, 245);
   border-radius: 0.2rem;
   cursor: none;
 }
@@ -137,7 +137,7 @@ body {
 /* ---------- Section 3 ------------ */
 .container_3 {
   width: 100%;
-  height: 45rem;
+  height: 35rem;
   margin-top: 10%;
 }
 
@@ -183,4 +183,202 @@ body {
   z-index: 1;
   margin-left: -60%;
   margin-top: 15%;
+}
+
+/* --------------- */
+.grid-item-2 {
+  position: relative;
+  grid-column-start: span 1;
+  align-self: start;
+  justify-self: center;
+}
+.grid-item-2 h5 {
+  position: absolute;
+  color: rgb(245, 245, 245);
+  z-index: 2;
+  top: 80%;
+  left: 5%;
+}
+.grid-item-2 p {
+  position: absolute;
+  color: rgb(245, 245, 245);
+  z-index: 2;
+  top: 90%;
+  left: 5%;
+  font-size: 6px;
+}
+.grid-item-2 .Section3_img_sub {
+  position: absolute;
+  z-index: 1;
+  size: -2rem;
+  margin-left: -97%;
+  margin-top: -3%;
+}
+
+/* --------------- */
+.grid-item-3 {
+  position: relative;
+  grid-column-start: span 1;
+  align-self: start;
+  justify-self: center;
+}
+.grid-item-3 h5 {
+  position: absolute;
+  color: rgb(245, 245, 245);
+  z-index: 2;
+  top: 80%;
+  left: 5%;
+}
+.grid-item-3 p {
+  position: absolute;
+  color: rgb(245, 245, 245);
+  z-index: 2;
+  top: 90%;
+  left: 5%;
+  font-size: 6px;
+}
+
+/* --------------- */
+.grid-item-4 {
+  position: relative;
+  grid-column-start: span 1;
+  align-self: start;
+  justify-self: center;
+}
+.grid-item-4 h5 {
+  position: absolute;
+  color: rgb(245, 245, 245);
+  z-index: 2;
+  top: 80%;
+  left: 5%;
+}
+.grid-item-4 p {
+  position: absolute;
+  color: rgb(245, 245, 245);
+  z-index: 2;
+  top: 90%;
+  left: 5%;
+  font-size: 6px;
+}
+
+/* --------------- */
+.grid-item-5 {
+  position: relative;
+  grid-column-start: span 1;
+  align-self: start;
+  justify-self: center;
+}
+.grid-item-5 h5 {
+  position: absolute;
+  color: rgb(245, 245, 245);
+  z-index: 2;
+  top: 80%;
+  left: 5%;
+}
+.grid-item-5 p {
+  position: absolute;
+  color: rgb(245, 245, 245);
+  z-index: 2;
+  top: 90%;
+  left: 5%;
+  font-size: 6px;
+}
+
+/* ---------- Section 4 ------------ */
+.container_4 {
+  justify-content: center;
+  width: 100%;
+  height: 38rem;
+}
+.container_4 h3 {
+  padding-top: 10%;
+  text-align: center;
+  top: 30%;
+  font-family: rgb(11, 39, 71);
+  color: rgb(11, 78, 134);
+}
+.container_4 p {
+  justify-content: center;
+  text-align: center;
+}
+.container_4 img {
+  padding-left: 47%;
+  margin-top: 5%;
+}
+
+table {
+  position: relative;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 35rem;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0.1rem 0.5rem 0.99rem #c6c5c5;
+  border-radius: 0.8rem;
+}
+table .table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+table th {
+  border-right: 1px rgb(11, 39, 71) solid;
+  padding-top: 2%;
+  padding: 5px;
+}
+table td,
+table th {
+  padding-bottom: 1em;
+  text-align: center;
+}
+table thead tr {
+  height: 60px;
+  background: rgb(11, 78, 134);
+  color: rgb(245, 245, 245);
+  font-family: "29LT Bukra, Bold Italic ";
+  border-radius: 0.8rem;
+  box-shadow: 0.1rem 0.5rem 0.99rem #c6c5c5;
+}
+table tbody tr {
+  height: 48px;
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+table td,
+table th {
+  text-align: center;
+}
+table td h5,
+table th h5 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-color: rgb(245, 245, 245);
+  font-size: 1rem;
+  letter-spacing: 0px;
+  color: rgb(11, 39, 71);
+  margin-top: 4%;
+}
+
+@media screen and (max-width: 35.5em) {
+  table {
+    display: block;
+    justify-content: center;
+  }
+  table tr,
+table td,
+table th {
+    display: block;
+  }
+  table thead {
+    display: none;
+  }
+  table tbody tr {
+    height: auto;
+    padding: 8px 0;
+  }
+  table tbody tr td {
+    padding-left: 45%;
+    margin-bottom: 12px;
+    text-align: center;
+    vertical-align: middle;
+  }
 }/*# sourceMappingURL=style.css.map */
