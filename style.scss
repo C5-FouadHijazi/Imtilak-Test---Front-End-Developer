@@ -1,0 +1,231 @@
+@import url(//db.onlinewebfonts.com/c/19a516eaa6ae19744976e313ea5896f4?family=29LT+Bukra+Variable);
+
+
+//Variables :
+//-Color
+$body-color :rgba(245, 245, 245, 1);
+$main-font-color :rgba(255, 255, 255, 1);
+$heading-color :rgba(11, 78, 134, 1);
+
+$sub-hiding-color: rgba(11, 39, 71, 1);
+$sub-hiding-color2: #F1D9BF;
+
+//-Fonts
+$body-font : 'Roboto',
+sans-serif;
+$sub-font : sans-serif;
+$sub-font_2: "29LT Bukra, Bold Italic ";
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+body {
+    background-color: $body-color;
+    font-family: $body-font;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+
+/* ---------- Section 1 ------------ */
+.container_1 {
+    max-width: 100%;
+    max-width: 48rem;
+
+    /* Part 1 --- NavBar */
+    nav {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        font-family: $sub-font;
+        /* Position */
+        position: absolute;
+        bottom: 85%;
+        left: 5%;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 1.9rem;
+
+        /* Header _logo */
+        .logo {
+            width: 9rem;
+            position: absolute;
+            margin: 0 auto;
+        }
+
+        .center {
+            padding-left: 27%;
+            margin-left: 10%;
+
+            & :hover {
+                border-bottom: 1px solid $body-color;
+            }
+        }
+
+        .end {
+            padding-left: 15%;
+            margin-left: -3%;
+        }
+
+        .global {
+            width: 1.5rem;
+            position: absolute;
+            margin-top: .5rem;
+
+        }
+
+        .nav-link {
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 15px;
+            color: #fff;
+        }
+
+    }
+
+}
+
+
+/* Part 2 --- Container_Logo & Des. */
+.nav_down_container {
+    width: 100%;
+    height: 40.5rem;
+}
+
+.down_container_logo {
+    position: absolute;
+    z-index: 1;
+    top: 18%;
+    left: 5%;
+    max-height: 27rem;
+    margin: 0 auto;
+
+}
+
+.container_1_Description {
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 50%;
+    max-height: 22rem;
+    text-align: left;
+    padding: 1rem;
+    color: $body-color;
+    font-family: $sub-font_2;
+
+    h1 {
+        top: 30%;
+        font-family: $sub-font_2;
+        color: $sub-hiding-color2;
+    }
+
+    p {
+        font-family: $main-font-color
+    }
+
+    img {
+        width: 2.5rem;
+        height: 1rem;
+    }
+
+    button {
+        width: 9rem;
+        height: 2rem;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        letter-spacing: 0px;
+        color: #0A4473;
+        opacity: 1;
+        border-color: $body-color;
+        border-radius: .2rem;
+        cursor: none;
+
+
+    }
+}
+
+/* ---------- Section 2 ------------ */
+
+.container_2 {
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+
+    h1 {
+        padding-top: 10%;
+        text-align: center;
+        top: 30%;
+        font-family: $sub-font_2;
+        color: $heading-color;
+    }
+
+    p {
+        text-align: left;
+        padding-left: 10%;
+
+    }
+
+    img {
+        padding-left: 47%;
+        margin-top: 5%;
+    }
+}
+
+/* ---------- Section 3 ------------ */
+.container_3 {
+    width: 100%;
+    height: 45rem;
+    margin-top: 10%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-auto-rows: auto;
+    color: $heading-color;
+    margin-left: 18%;
+    max-width: 100%;
+    gap: .5%;
+
+}
+
+.grid-item-1 {
+    position: relative;
+    grid-column-start: span 2;
+    align-self: start;
+    justify-self: center;
+
+    h5 {
+        position: absolute;
+        color: $body-color;
+        z-index: 2;
+        top: 80%;
+        left: 5%;
+    }
+
+    p {
+        position: absolute;
+        color: $body-color;
+        z-index: 2;
+        top: 90%;
+        left: 5%;
+        font-size: 6px;
+    }
+}
+
+.Section3_img {
+    height: 17rem;
+    max-width: 100%;
+}
+
+.Section3_img_sub {
+    position: absolute;
+    z-index: 1;
+    margin-left: -60%;
+    margin-top: 15%;
+}
