@@ -9,7 +9,7 @@ $gl-lg : "screen and (max-width: 80em)"; // max 1280px
 
 //Variables :
 //-Color
-$body-color :rgba(245, 245, 245, 1);
+$body-color :#F5F5F5;
 $main-font-color :rgba(255, 255, 255, 1);
 $heading-color :rgba(11, 78, 134, 1);
 
@@ -352,7 +352,7 @@ body {
 .container_4 {
     justify-content: center;
     width: 100%;
-    height: 38rem;
+    height: 30rem;
 
     h3 {
         padding-top: 10%;
@@ -365,6 +365,8 @@ body {
     p {
         justify-content: center;
         text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
     }
 
     img {
@@ -469,4 +471,43 @@ table {
             }
         }
     }
+}
+
+
+/*------------ Section 5  ------------*/
+
+.container_5 {
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+    
+}
+
+.grid-container_2 {
+    display: grid;
+    grid-template-columns: repeat(5, .4fr);
+    color: $heading-color;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    height: 10rem;
+    margin-top: 10%;
+
+    .grid-item-1-1 {
+        align-self: center;
+        justify-self: center;
+        height: 20vh;
+
+    }
+
+
+}
+
+.arrow_2 {
+    z-index: 1;
+    margin-top: 100%;
+    justify-content: center;
+    padding-left: 130%;
 }
