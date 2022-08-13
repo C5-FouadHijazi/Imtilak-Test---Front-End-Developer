@@ -8,10 +8,10 @@ nav {
     font-family: $sub-font;
     /* Position */
     position: absolute;
-    bottom: 85%;
     left: 8%;
     width: 90%;
     margin-bottom: 1.9rem;
+    margin-top: 1rem;
 
     /* Header _logo */
     .logo {
@@ -48,6 +48,7 @@ nav {
         padding: 10px 15px;
         color: #fff;
     }
+
 
 }
 
@@ -113,15 +114,16 @@ nav {
         border-radius: .2rem;
         cursor: none;
     }
-
-
 }
+
+
 
 /* -- media --- */
 @media screen and (max-width: 37px) {
     h1 {
         color: lightgreen;
-      }
+    }
+
     .center {
         display: none;
     }
