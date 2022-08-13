@@ -56,6 +56,7 @@ nav {
 /* Part 2 --- Container_Logo & Des. */
 
 .container_1_b {
+    background-color: $body-color;
     background-image: url(./assest/Path\ 5.svg);
     background-repeat: no-repeat;
     justify-content: center;
@@ -116,19 +117,26 @@ nav {
     }
 }
 
-
+.logo_center {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+}
 
 /* -- media --- */
-@media screen and (max-width: 37px) {
-    h1 {
-        color: lightgreen;
-    }
+@media all and (max-width: 376px) {
+    .container_1_b {
+        background-image: url(./assest/Path\ 11615.svg);
+        justify-content: center;
+        width: 100%;
+        background-size: 50vh;
 
-    .center {
-        display: none;
-    }
+        .center {
+            display: none;
+        }
 
-    .end {
-        display: none;
+        .end {
+            display: none;
+        }
     }
 }
