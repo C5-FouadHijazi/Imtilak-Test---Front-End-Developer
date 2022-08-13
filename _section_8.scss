@@ -1,0 +1,124 @@
+
+/*-------------------------------- Section 08 -----------------------------*/
+
+.container_8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3%;
+    width: 100%;
+    height: 20rem;
+    background-color: $body-color;
+
+    .container_8_left {
+        margin-top: 5%;
+        justify-content: left;
+    }
+
+    h3 {
+        color: $heading-color_1;
+    }
+
+    .btn_1 {
+        padding-left: 3%;
+        padding-right: 3%;
+        margin: 2%;
+        color: #ececec;
+        background-color: $heading-color_1;
+        border-radius: 5px;
+        border-color: $heading-color_1;
+        cursor: pointer;
+    }
+
+    .btn_2 {
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: .7%;
+        padding-bottom: .7%;
+        margin: 3%;
+        background-color: #c6c5c5;
+        color: #ececec;
+        border-style: none;
+        border-color: #c6c5c5;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+}
+
+form {
+    width: 45%;
+    margin-right: 30px;
+
+    h5 {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .input-box {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(3, 45px);
+        gap: .5rem;
+        grid-template-areas: 'input_1 input_2'
+            'input_3 input_4'
+            'input_5 input_5 ';
+        font-size: 2px;
+
+
+        input {
+            border-radius: .5rem;
+            font-size: 1em;
+            outline: none;
+            padding-left: 2rem;
+            border: 2px solid transparent;
+            transition: all 0.5s ease;
+            height: 2rem;
+            width: 15rem;
+            margin: 3%;
+
+        }
+
+        button {
+            justify-content: center;
+            border-radius: .5rem;
+            font-size: 16px;
+            border: 2px solid;
+            transition: all 0.5s ease;
+            height: 2.5rem;
+            width: 92%;
+            margin: 2%;
+            background-color: $sub-hiding-color;
+            color: $body-color;
+            cursor: pointer;
+
+            button :hover {
+                background-color: $sub-hiding-color2;
+            }
+        }
+
+
+
+        #input_1 {
+            grid-area: input_1;
+        }
+
+        #input_2 {
+            grid-area: input_2;
+        }
+
+        #input_3 {
+            grid-area: input_3;
+        }
+
+        #input_4 {
+            grid-area: input_4;
+        }
+
+        #input_5 {
+            grid-area: input_5;
+        }
+    }
+}
+

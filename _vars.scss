@@ -1,0 +1,23 @@
+//-----------Variables :
+
+// Media Screen size
+$gl-xxs : "screen and (max-width: 23.5em)"; // up to 360px
+$gl-xs : "screen and (max-width: 35.5em)"; // up to 568px
+$gl-sm : "screen and (max-width: 48em)"; // max 768px
+$gl-md : "screen and (max-width: 64em)"; // max 1024px
+$gl-lg : "screen and (max-width: 80em)"; // max 1280px
+
+//-Color
+$body-color : #ececec;
+$main-font-color :rgba(255, 255, 255, 1);
+
+$heading-color :#0B4E86;
+$heading-color_1: #0A487A;
+
+$sub-hiding-color: rgba(11, 39, 71, 1);
+$sub-hiding-color2: #F1D9BF;
+
+//-Fonts
+$body-font : 'Roboto', sans-serif;
+$sub-font : sans-serif;
+$sub-font_2: "29LT Bukra, Bold Italic ";
